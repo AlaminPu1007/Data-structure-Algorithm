@@ -1,4 +1,4 @@
-# Naive Pattern Searching
+ï»¿# Naive Pattern Searching
 
 **Description :**
 
@@ -13,21 +13,21 @@ This is our searching pattern string. We have to find this string inside of main
 **Algorithm : **
 
 
-   for i := 0 to strLen , do
-      for j := 0 to patLen, do
-         if str[i+j] != pattern[j], then
-            break the loop
-      done
+   for i := 0 to strLen , do<br>
+      for j := 0 to patLen, do<br>
+         if str[i+j] != pattern[j], then<br>
+            break the loop<br>
+      done<br>
 
-      if j == patLen, then
-         display the position i, as there pattern found
-   done
-End
+      if j == patLen, then<br>
+         display the position i, as there pattern found<br>
+   done<br>
+End<br>
 
 The idea behind of naive algorithm is that, whenever we get any miss-matching character along str[i] != pattern[i].<br>
 We need tp break our iteration, and check with it i of next iteration.<br>
 
 **Complexity :**
 
-The time complexity of Naïve Pattern Search method is O(m*n).<br> 
+The time complexity of Naï¿½ve Pattern Search method is O(m*n).<br> 
 The m is the size of pattern and n is the size of the main string.<br>
