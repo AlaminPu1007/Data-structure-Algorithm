@@ -12,5 +12,5 @@ Reason: O(2^n) for the outer for loop and O(n) for the inner for loop.<br>
 Space Complexity: O(1)<br>
 
 **References :**<br>
-https://www.geeksforgeeks.org/power-set/
+https://www.geeksforgeeks.org/power-set/<br>
 https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/
