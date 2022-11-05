@@ -1,6 +1,6 @@
 ## Longest common subsequence
 
-[Learn optimal LCS Table](https://github.com/AlaminPu1007/Hacker-Rank-problem-solution/blob/master/Hacker%20rank/Algorithms/problem-117%20Common%20child%20problem/common_child_problem.cpp)
+[Learn optimal LCS Table](https://github.com/AlaminPu1007/leet-code/blob/master/Leet-Code/124.%20Longest%20Common%20Subsequence/Longest_Common_Subsequence_memoisation.cpp)
 
 **Approach :**<br>
 [geeksforgeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
