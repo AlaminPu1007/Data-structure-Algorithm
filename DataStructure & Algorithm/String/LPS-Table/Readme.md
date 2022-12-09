@@ -1,14 +1,15 @@
 # LPS Table
 
-* Name lps indicates longest proper prefix which is also suffix.<br>
+-   Name lps indicates longest proper prefix which is also suffix.<br>
 
 A proper prefix is prefix with whole string not allowed.<br>
-For example, prefixes of “ABC” are “ ”, “A”, “AB” and “ABC”.<br>
-Proper prefixes are “”, “A” and “AB”. Suffixes of the string are “”, “C”, “BC” and “ABC”.<br>
+For example, prefixes of ï¿½ABCï¿½ are ï¿½ ï¿½, ï¿½Aï¿½, ï¿½ABï¿½ and ï¿½ABCï¿½.<br>
+Proper prefixes are ï¿½ï¿½, ï¿½Aï¿½ and ï¿½ABï¿½. Suffixes of the string are ï¿½ï¿½, ï¿½Cï¿½, ï¿½BCï¿½ and ï¿½ABCï¿½.<br>
 
-We search for lps in sub-patterns.<br> 
+We search for lps in sub-patterns.<br>
 More clearly we focus on sub-strings of patterns that are either prefix and suffix.<br>
 
+```
 for pattern = "aaab"
 value of lps table = [0 1 2 0]
 
@@ -28,19 +29,16 @@ we put lps[++c] = j + 1// j = a, i = a// matching <br>
 
 else {
 
-  if j == 0
+if j == 0
 
-  then := lps[++c] = 0
-  then := i = i + 1
-  
-   else 
-     j = lps[j - 1] // we take the previous value from lps table,	
+then := lps[++c] = 0
+then := i = i + 1
+
+else
+j = lps[j - 1] // we take the previous value from lps table,
 
 }
 
 if j = 0, we will not increase of i value,<br>
 else we get j value from lps table, with j - 1, we not increase of i value this time.<br>
-
-
-
-
+```
