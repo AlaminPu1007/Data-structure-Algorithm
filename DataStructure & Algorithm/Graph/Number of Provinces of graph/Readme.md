@@ -21,5 +21,5 @@ A province is a group of directly or indirectly connected cities and no other ci
 -   Space-Complexity: `O(N) + O(N)`,Space for recursion stack space and visited array.
 
 **References :**<br>
-[Article](https://takeuforward.org/data-structure/number-of-provinces/)
+[Article](https://takeuforward.org/data-structure/number-of-provinces/) <br>
 [Video](https://www.youtube.com/watch?v=ACzkVtewUYA&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=7)
