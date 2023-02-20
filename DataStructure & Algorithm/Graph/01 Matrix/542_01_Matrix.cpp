@@ -42,7 +42,7 @@ public:
 
             // delete item from q
             q.pop();
-            // update res array with dis
+            // update res array with distance
             res[row][col] = dis;
 
             for (int i = 0; i < 4; i++)
