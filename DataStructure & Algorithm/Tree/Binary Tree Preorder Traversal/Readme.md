@@ -6,9 +6,9 @@
 
 -   1. Initialize an empty array answer
 -   2. Start with the root node root. If root is not `NULL`
--   -> add its value to answer
--   -> repeat step 2 with root's left child
--   -> repeat step 2 with root's right child.
+-     -> add its value to answer
+-     -> repeat step 2 with root's left child
+-     -> repeat step 2 with root's right child.
 -   3. Return answer after the iteration stops.
 
 **Complexity Analysis :**<br>
