@@ -1,6 +1,6 @@
 ## Surrounded Regions | Replace O’s with X’s
 
-[visit problem](https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/)
+[visit problem](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1)
 
 **Intuition :**<br/>
 The boundary elements in the matrix cannot be replaced with ‘X’ as they are not surrounded by ‘X’ from all 4 directions. This means if `‘O’ (or a set of ‘O’)` is connected to a boundary ‘O’ then it can’t be replaced with ‘X’. <br/>
@@ -21,12 +21,12 @@ The algorithm steps are as follows: <br/>
 
 Consider the following illustration to understand how DFS traverses the matrix and replaces O’s with X’s.<br/><br/><br/>
 
-![CHEESE!](./image.gif)<br/><br/>
+![CHEESE!](./image.gif)<br/>
 
-**How do set boundaries for 4 directions? **<br/>
+**How do set boundaries for 4 directions? :**<br/>
 The 4 neighbors will have the following indexes:<br/><br/>
 
-![CHEESE!](./new_row_col.png)<br/><br/>
+![CHEESE!](./new_row_col.png)<br/>
 
 Now, either we can apply 4 conditions or follow the following method. <br/><br/>
 
