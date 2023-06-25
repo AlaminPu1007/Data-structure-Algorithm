@@ -26,7 +26,7 @@ public:
             return node;
 
         else
-            parents[node] = findParent(parents[node]);
+            return parents[node] = findParent(parents[node]);
     }
 
     void unionByRank(int u, int v)
