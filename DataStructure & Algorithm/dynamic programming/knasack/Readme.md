@@ -6,6 +6,10 @@ The Knapsack problem is a fundamental problem in combinatorial optimization. The
 2. `**0/1 Knapsack: :**` - Here, each item can either be taken or left (i.e., you cannot take a fraction of an item). The objective is to maximize the total value of the selected items while staying within the weight limit.
 3. `**Unbounded Knapsack :**` - In this variation, you can take an unlimited number of each type of item. The aim is to maximize the total value without exceeding the weight capacity.
 
+## Fractional Knapsack problem
+
+- It's not include in dp, it's a part of greedy algorithm
+
 ## Type of 0/1 knapsack problem
 
 1. Subset sum
@@ -14,6 +18,13 @@ The Knapsack problem is a fundamental problem in combinatorial optimization. The
 4. Minimum subset sum difference
 5. Target sum
 6. No fo subset sum given difference
+
+## Type of unbound knapsack problem
+
+1. Rod cutting
+2. Coin change i
+3. Coin change ii
+4. Maximum Ribbon cut
 
 **References :**
 
