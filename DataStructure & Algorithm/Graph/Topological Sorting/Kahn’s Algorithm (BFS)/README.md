@@ -23,7 +23,7 @@ If a directed graph contains a cycle, the in-degree of the nodes that are parts 
 
 ### A Directed Acyclic Graph (DAG)
 
-[!IMAGE](./image_one.webp)
+[!IMAGE](image_one.webp)
 
 **Complexity Analysis :**<br/>
 
